@@ -15,14 +15,33 @@ body {
   font-family: "Raleway", Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px;
-  background: #121212;
+  background: #bfbfbf;
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
 }
+
+.cu{ font-weight:bold}
+
 body.fh5co-offcanvas {
   overflow: hidden;
 }
+
+table, th, td {
+	width: 500px;
+    padding: 10px;
+  border: 1px solid black;
+}
+
+
+th.black{
+background-color:#000033;
+}
+
+th.blue{
+background-color:#0000b3;
+}
+
 
 a {
   color: #fff;
@@ -311,7 +330,7 @@ figure {
 }
 .fh5co-news ul li a .fh5co-date {
   font-family: Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
